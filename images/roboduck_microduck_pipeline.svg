@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="450" viewBox="0 0 1200 450">
+<rect width="1200" height="450" rx="24" fill="#f8fafc"/>
+<text x="600" y="45" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle" fill="#172554">RoboDuck / MicroDuck Learning Pipeline</text>
+<g font-family="Arial" text-anchor="middle">
+<rect x="45" y="105" width="205" height="100" rx="14" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<text x="147" y="143" font-size="20" fill="#172554">Reference Design</text><text x="147" y="172" font-size="15" fill="#334155">CAD / BOM / License</text>
+<rect x="285" y="105" width="205" height="100" rx="14" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2"/>
+<text x="387" y="143" font-size="20" fill="#172554">Build &amp; Assemble</text><text x="387" y="172" font-size="15" fill="#334155">3D Print / AX-12A</text>
+<rect x="525" y="105" width="205" height="100" rx="14" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+<text x="627" y="143" font-size="20" fill="#14532d">Control</text><text x="627" y="172" font-size="15" fill="#166534">Calibration / Gait</text>
+<rect x="765" y="105" width="180" height="100" rx="14" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+<text x="855" y="143" font-size="20" fill="#78350f">Simulation / RL</text><text x="855" y="172" font-size="15" fill="#92400e">MuJoCo / PPO*</text>
+<rect x="980" y="105" width="175" height="100" rx="14" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+<text x="1067" y="143" font-size="20" fill="#7f1d1d">Real Robot</text><text x="1067" y="172" font-size="15" fill="#991b1b">Deploy / Test</text>
+<g stroke="#64748b" stroke-width="3" fill="none"><path d="M250 155 H280"/><path d="M490 155 H520"/><path d="M730 155 H760"/><path d="M945 155 H975"/></g>
+<rect x="115" y="270" width="970" height="95" rx="16" fill="#fff" stroke="#94a3b8" stroke-width="2"/>
+<text x="600" y="306" font-size="21" fill="#334155">Iterative engineering loop</text>
+<text x="600" y="337" font-size="17" fill="#475569">Measure → Calibrate → Simulate → Test slowly → Log failures → Improve</text>
+<text x="600" y="355" font-size="13" fill="#64748b">*RL is an advanced extension; establish safe scripted gait and actuator control first.</text>
+</g></svg>
