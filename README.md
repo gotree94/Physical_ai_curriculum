@@ -1,13 +1,13 @@
-# Physical AI 교육과정 3종
+# Physical AI 교육과정 5종
 
 이 패키지는 3개 트랙의 720시간 예시 커리큘럼과 각 트랙의 자체 제작 아키텍처 다이어그램(SVG)을 포함합니다.
 
 ## 파일 구성
-- `05_roboduck_microduck_build_control_rl_curriculum.md` — RoboDuck/MicroDuck 자작·제어·MuJoCo·강화학습 과정
-- `04_quadruped_robot_mujoco_rl_jetson_curriculum.md` — 로봇 개 MuJoCo 강화학습 및 Jetson 실기체
 - `01_robot_arm_physical_ai_curriculum.md` — 로봇팔 기반 Physical AI
 - `02_agv_amr_physical_ai_curriculum.md` — AGV/AMR 기반 Physical AI
 - `03_alpamayo_autonomous_driving_ai_curriculum.md` — NVIDIA Alpamayo 기반 자율주행 AI
+- `04_quadruped_robot_mujoco_rl_jetson_curriculum.md` — 로봇 개 MuJoCo 강화학습 및 Jetson 실기체
+- `05_roboduck_microduck_build_control_rl_curriculum.md` — RoboDuck/MicroDuck 자작·제어·MuJoCo·강화학습 과정
 - `images/` — 각 커리큘럼에서 참조하는 SVG 다이어그램
 
 ## 사용 방법
